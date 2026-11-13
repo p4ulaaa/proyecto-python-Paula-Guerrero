@@ -1,0 +1,53 @@
+{
+    "usuarios": [
+        {
+            "identificacion": "0000",
+            "nombres": "Admin",
+            "apellidos": "Administrador",
+            "telefono": "555 000111",
+            "email": "admin@acmeclinic.com",
+            "direccion": "Cl 185 # 26 - 85",
+            "contrasena": "Admin123*",
+            "rol": "administrativo"
+        },
+        {
+            "identificacion": "12345",
+            "nombres": "Paula Sofia",
+            "apellidos": "Guerrero Ortega",
+            "telefono": "3001234567",
+            "email": "paula.guerrero@acmeclinic.com",
+            "direccion": "calle 4 # 14-42",
+            "contrasena": "Medico123*",
+            "rol": "medico"
+        }
+    ],
+    "pacientes": [
+        {
+            "identificacion": "123456789",
+            "nombres": "paula sofia",
+            "apellidos": "guerrero ortega",
+            "telefono": "3133522357",
+            "email": "paulaguerrero@acmeclinic.com",
+            "direccion": "Calle 4 # 14-42",
+            "genero": "femenino",
+            "estado_civil": "soltera"
+        }
+    ],
+    "consultas": [
+        {
+            "fecha": "2026-11-13 18:47",
+            "paciente_identificacion": "123456789",
+            "paciente_nombre": "paula sofia guerrero ortega",
+            "medico_identificacion": "12345",
+            "medico_nombre": "Paula Sofia Guerrero Ortega",
+            "sintomas": "vomito",
+            "diagnostico": "Problemas estomacales",
+            "prescripcion": {
+                "medicamento": "naiior",
+                "cantidad": "500mg",
+                "dosis_diaria": "1",
+                "duracion_dias": "7"
+            }
+        }
+    ]
+}
