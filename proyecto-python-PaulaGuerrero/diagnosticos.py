@@ -1,4 +1,5 @@
 from datetime import datetime
+import os
 from almacenamiento import guardar_datos
 
 
@@ -54,3 +55,12 @@ def registrar_consulta(datos, ruta_datos, medico):
     guardar_datos(ruta_datos, datos)
 
     print("\nDiagnostico registrado correctamente.")
+
+def reporte_carga_medicos(ruta_usuarios, ruta_diagnosticos, ruta_reporte):
+    ruta_usuarios = os.path.join ("datos", "datos.json")
+    ruta_diagnosticos = os.path.join("datos", "datos.json")
+    ruta_reporte = os.path.join("datos", "reporte_carga_medicos.json")
+
+
+try:
+     with open ("ruta_usuarios", "r")
